@@ -1,0 +1,21 @@
+var alanjson={
+
+	"nombre":"Alan",
+	"apellidos": "Vargas",
+	"edad": 20,
+	"estatura": 1.75,
+	"color":"blanco",
+	"direccion":{
+
+		"calle":17,
+		"colonia": "Progreso",
+		"numero": 113
+	},
+
+	"gustos":{
+		"hobbys": "computacion",
+		"juego": "Gears y LoL",
+	},
+
+	"peticion":"jajaja"
+}

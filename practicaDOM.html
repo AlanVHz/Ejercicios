@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM</title>
+</head>
+<body>
+	<h2 id="atributo">Esta es una prueba del DOM</h2>
+	<div id="identificador">
+		<button>Hazme click</button>
+	</div>
+	
+	
+	<script>
+		//evento on click
+		var id = document.getElementById("identificador").onclick = function(){
+			alert("Esto es un evento onclick");
+
+	}
+		var atributo = document.getElementById("atributo");
+		atributo.setAttribute("align","center");
+		//el innerHTML sirve para escribir dentro de la etiqueta que jalamos del getElementById
+		atributo.innerHTML = "Esto es nuevo titulo";
+	</script>
+</body>
+</html>
