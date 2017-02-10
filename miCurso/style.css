@@ -1,0 +1,97 @@
+*{font-family: courier;}
+
+#explicacion{text-align: center;}
+
+li{
+	margin-left:7%;
+	display: inline-block;
+	list-style: none;
+}
+
+.container{width:100%;}
+
+.enter{
+	display: inline-block;
+	margin-left:20%;
+	height:100px;
+	width:100px;
+	background-color: red;
+	color:white;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.hide{
+	display: inline-block;
+	text-align: center;
+	margin-left:10px;
+	height:100px;
+	width:100px;
+	background-color: red;
+	border-radius: 10px;
+}
+
+.fadeTo{
+	display: inline-block;
+	margin-left:10px;
+	height:100px;
+	width:100px;
+	background-color: red;
+	color:white;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.fadeOut{
+	display: inline-block;
+	margin-left:10px;
+	height:100px;
+	width:300px;
+	background-color: red;
+	color:white;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.click{
+	background-color: red;
+	height: 50px;
+	margin-left:40%;
+	width: 10%;
+	color: white;
+	display: block;
+}
+
+.fadeIn{
+	height:100px;
+	width:100px;
+	background-color: red;
+	color:white;
+	text-align: center;
+	border-radius: 10px;
+	display: none;
+}
+
+.variable{
+	display: inline-block;
+	height:100px;
+	width:100px;
+	background-color: red;
+	color:white;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.this{
+	display: inline-block;
+	margin-left:5%;
+	height:100px;
+	width:100px;
+	background-color: blue;
+	color:white;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#primer{margin-left: 20%;}
+
